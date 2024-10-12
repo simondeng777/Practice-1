@@ -63,7 +63,6 @@ print(image4.mode,image4.format)
 image5=Image.open('lena_color.jpg')
 print(image5.mode,image5.format)
 
-
 imgR=nim.transpose(Image.ROTATE_180)
 Image._show(imgR)
 
