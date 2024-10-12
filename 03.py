@@ -12,17 +12,19 @@ cv2.imshow('img',image2)
 cv2.waitKey(0)
 
 #讀影片進程式並抓第一張照片
-cap=cv2.VideoCapture('AI.mp4')
+cap=cv2.VideoCapture('60秒台灣.mp4')
 
 ret, frame = cap.read()
 if ret:
      cv2.imshow('video1', frame) 
      cv2.waitKey(0)
 
-     #讀影片進程式並播放
-cap=cv2.VideoCapture('AI.mp4')
+#讀影片進程式並播放
+cap=cv2.VideoCapture('60秒台灣.mp4')
 while True:
      ret, frame = cap.read()
-if ret:
-     cv2.imshow('video1', frame)
-     cv2.waitKey(1) 
+     if ret:   
+          cv2.imshow('video1', frame)
+     else:
+          break
+     cv2.waitKey(3) 
