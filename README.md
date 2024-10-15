@@ -17,8 +17,13 @@ activate
 
 -相關-
 virtualenv->virtualenv -p python3.10 XXX
+
 sqlitebrowser->https://sqlitebrowser.org/dl/
+
 Tesseract->https://tesseract-ocr.github.io/tessdoc/Installation.html
+
 PaddleOCR->https://github.com/PaddlePaddle/PaddleOCR/blob/main/doc/doc_ch/quickstart.md
+
 EasyOCR->https://github.com/JaidedAI/EasyOCR
+
 Mediapipe->https://github.com/googlesamples/mediapipe
