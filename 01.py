@@ -42,8 +42,8 @@ Image._show(image3)
 print(image3.size)
 
 width=200
-ratio=float(width)/image3.size[1]
-height=int(image3.size[0]*ratio)
+ratio=float(width)/image3.size[0]
+height=int(image3.size[1]*ratio)
 nim=image3.resize((width,height), Image.BILINEAR)
 print(nim.size)
 Image._show(nim)
