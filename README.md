@@ -18,7 +18,9 @@ virtualenv 取一個名稱
 activate
 
 -相關-
+
 pip install opencv_python
+
 pip install matplotlib
 
 
