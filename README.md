@@ -18,10 +18,9 @@ virtualenv 取一個名稱
 activate
 
 -相關-
+pip install opencv_python
+pip install matplotlib
 
-virtualenv->virtualenv -p python3.10 XXX
-
-sqlitebrowser->https://sqlitebrowser.org/dl/
 
 Tesseract->https://tesseract-ocr.github.io/tessdoc/Installation.html
 
